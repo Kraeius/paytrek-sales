@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="6" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10707" started-at="2018-07-21T03:03:00Z" finished-at="2018-07-21T03:03:11Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10707" started-at="2018-07-21T03:03:00Z" finished-at="2018-07-21T03:03:11Z">
+      <class name="SaleChargeRefund">
+        <test-method status="PASS" signature="beforeSuit()[pri:0, instance:SaleChargeRefund@6f7fd0e6]" name="beforeSuit" is-config="true" duration-ms="218" started-at="2018-07-21T03:03:00Z" finished-at="2018-07-21T03:03:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuit -->
+        <test-method status="PASS" signature="connectionHealthCheck()[pri:0, instance:SaleChargeRefund@6f7fd0e6]" name="connectionHealthCheck" duration-ms="1560" started-at="2018-07-21T03:03:00Z" finished-at="2018-07-21T03:03:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectionHealthCheck -->
+        <test-method status="PASS" signature="createASale()[pri:1, instance:SaleChargeRefund@6f7fd0e6]" name="createASale" duration-ms="1458" started-at="2018-07-21T03:03:02Z" finished-at="2018-07-21T03:03:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createASale -->
+        <test-method status="PASS" signature="chargeEndpoint()[pri:3, instance:SaleChargeRefund@6f7fd0e6]" name="chargeEndpoint" duration-ms="4036" started-at="2018-07-21T03:03:03Z" finished-at="2018-07-21T03:03:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chargeEndpoint -->
+        <test-method status="PASS" signature="chargeResultCheck()[pri:4, instance:SaleChargeRefund@6f7fd0e6]" name="chargeResultCheck" duration-ms="1295" started-at="2018-07-21T03:03:07Z" finished-at="2018-07-21T03:03:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chargeResultCheck -->
+        <test-method status="PASS" signature="refund()[pri:4, instance:SaleChargeRefund@6f7fd0e6]" name="refund" duration-ms="2342" started-at="2018-07-21T03:03:09Z" finished-at="2018-07-21T03:03:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refund -->
+        <test-method status="FAIL" signature="afterSuit()[pri:0, instance:SaleChargeRefund@6f7fd0e6]" name="afterSuit" is-config="true" duration-ms="0" started-at="2018-07-21T03:03:11Z" finished-at="2018-07-21T03:03:11Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at SaleChargeRefund.afterSuit(SaleChargeRefund.java:228)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:425)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- SaleChargeRefund -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
